@@ -9,3 +9,11 @@
 
 (defn average [a b]
   (/ (+ a b) 2))
+(defn hello
+  "gives optional greetings"
+  [who]
+  (str "Hello, " who "!"))
+
+(hello "beautiful")
+(use 'clojure.repl)
+(doc +)

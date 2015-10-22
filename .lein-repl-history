@@ -1,3 +1,5 @@
 ls
 (+ 9 10)
 exit
+(use 'training-day)
+exit
